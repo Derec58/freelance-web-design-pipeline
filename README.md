@@ -113,6 +113,8 @@ cp -r freelance-web-design-pipeline/skills/* ~/.claude/skills/
 
 Each skill only activates when you say there's an active project, so they won't fire on unrelated requests.
 
+> 📄 **See a complete project:** [`examples/example-project-reyes-landscaping.md`](examples/example-project-reyes-landscaping.md) is a fictional client filled in from first contact to published case study — every `project.md` field populated, with the artifacts each stage produces (code shown as placeholders).
+
 ## File Structure
 
 ```
@@ -124,6 +126,8 @@ freelance-web-design-pipeline/
 ├── docs/
 │   ├── project-md-template.md        # canonical handoff template
 │   └── CLAUDE-CODE-NEXT-STEPS.md      # roadmap + repo setup + eval plan
+├── examples/
+│   └── example-project-reyes-landscaping.md   # a full project, filled start to finish
 └── skills/
     ├── client-acquisition/
     │   ├── SKILL.md
