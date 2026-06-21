@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────
+# CLIENT PRIVACY — never commit real client data
+# project.md files for real clients contain names, contact info,
+# and pricing. Keep them out of the repo. Only the template in
+# docs/ belongs in version control.
+# ─────────────────────────────────────────────────────────────
+**/project.md
+!docs/project-md-template.md
+WebsiteProjects/
+clients/
+*-client.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node / build (for any web projects produced by the pipeline)
+node_modules/
+dist/
+.next/
+.cache/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
