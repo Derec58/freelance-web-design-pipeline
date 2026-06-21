@@ -60,7 +60,7 @@ _Started: 2026-06-03 · Status: delivered_
 ### DEVELOPMENT
 - Stack: Vanilla HTML/CSS/JS (no build step)
 - Hosting: Netlify (free tier) + domain (~$12/yr, client owns)
-- Repo: github.com/Derec58/reyes-landscaping (private)
+- Repo: github.com/[your-username]/reyes-landscaping (private)
 - Live URL: https://reyeslandscaping.example
 - Site delivered: yes — 2026-06-23
 - Delivery method: Netlify deploy + GitHub repo handed to client
@@ -72,7 +72,7 @@ _Started: 2026-06-03 · Status: delivered_
 - Maintenance plan: accepted — BASIC $75/month (monthly check + minor updates + monthly report)
 - Google review: received — 5 stars, quoted on the site with permission
 - Referral ask: yes — referred his cousin's auto-detailing shop (new lead in pipeline)
-- Case study: written — published at dereckvilla.design/work/reyes-landscaping
+- Case study: written — published at [your-portfolio.com]/work/reyes-landscaping
 ```
 
 ---
@@ -85,7 +85,7 @@ A walk through the same project, showing the key output of each stage.
 
 In-person, kept short and observation-led:
 
-> "Hey Miguel — I'm Dereck, I do websites for local businesses here in town. A neighbor was actually asking me for a landscaper referral the other day and I couldn't find you online to point them to you. You've clearly got the work and the reviews — a simple site would catch the people word-of-mouth is already sending your way. Could I show you a couple of examples and what it'd look like? Takes 15 minutes."
+> "Hey Miguel — I'm [Your Name], I do websites for local businesses here in town. A neighbor was actually asking me for a landscaper referral the other day and I couldn't find you online to point them to you. You've clearly got the work and the reviews — a simple site would catch the people word-of-mouth is already sending your way. Could I show you a couple of examples and what it'd look like? Takes 15 minutes."
 
 → Qualified as **GREEN** and booked a call. (See `client-acquisition` → `objection-playbook.md` for handling the "I get all my business from word of mouth" reply.)
 
@@ -182,7 +182,7 @@ SITE HEALTH: uptime 100% · PageSpeed mobile 92 · backups current · SSL valid
 WHAT I DID: added 4 new project photos to the gallery; updated summer hours
 RECOMMENDATION: 3 new 5-star reviews came in — want me to feature one on the homepage next month?
 
-You're all set — reply any time. — Dereck
+You're all set — reply any time. — [Your Name]
 ```
 
 ---

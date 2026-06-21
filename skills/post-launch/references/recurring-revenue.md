@@ -50,7 +50,7 @@ STANDARD — $125/month
 No long-term commitment — month to month. If you're interested,
 just reply and I'll set it up.
 
-Dereck
+[Your Name]
 ```
 
 ### Maintenance Agreement Language
@@ -194,8 +194,8 @@ RECOMMENDATION (optional)
 You're all set. Reply any time you want something changed — it's
 included in your plan.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 **Why this works:** it proves the site is cared for even in quiet months (no-contact months are the most common cancellation trigger), and the optional recommendation is a low-key, non-pushy path into a content retainer or a one-off upsell. For STANDARD, SEO, or higher tiers, add a short metrics line — traffic, search impressions, or keyword movement — so the higher price stays visibly justified.

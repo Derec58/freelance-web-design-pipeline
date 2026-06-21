@@ -1,6 +1,6 @@
 # Reviewing a Contract the Client Sends You
 
-Most local clients won't have their own contract — your agreement (see `contract-clauses.md`) is the default and the cleaner option. But established businesses, agencies, and Bay Area companies sometimes send their own **contractor agreement, MSA (Master Service Agreement), SOW (Statement of Work), or terms** and ask you to sign.
+Most local clients won't have their own contract — your agreement (see `contract-clauses.md`) is the default and the cleaner option. But established businesses, agencies, and [a higher-cost metro] companies sometimes send their own **contractor agreement, MSA (Master Service Agreement), SOW (Statement of Work), or terms** and ask you to sign.
 
 **Never sign it as-is on the spot.** Read it from your side first. These documents are almost always written to protect *them*, and a few standard-looking clauses can quietly put a freelancer at real risk. Below is what to look for, why it matters, and what to ask for instead.
 

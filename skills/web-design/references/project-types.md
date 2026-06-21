@@ -120,7 +120,7 @@ Utility:
 - **Phone number always visible**: On mobile, the primary CTA is almost always a tap-to-call button. It should be in the nav, the hero, and the footer.
 - **Real photos over stock**: Stock photos immediately signal inauthenticity to local service audiences. Push the client for real photos — even phone photos are better than stock.
 - **Mobile-first absolutely**: A large proportion of local business searches happen on mobile. Every layout decision starts with mobile.
-- **Local signals**: Mention the city/region in the H1 or hero subheading. "Serving Sacramento and the greater Central Valley" is more trustworthy than a generic national-sounding site.
+- **Local signals**: Mention the city/region in the H1 or hero subheading. "Serving Sacramento and the greater [your region]" is more trustworthy than a generic national-sounding site.
 
 ### Common mistakes to avoid
 - Stock photography of smiling people in hard hats or cleaning supplies
@@ -470,7 +470,7 @@ Is it a simple landing page or small business site with minimal JS?
 
 **Vanilla HTML/CSS/JS**
 - Best for: Small business sites, simple marketing sites, landing pages, any project where simplicity and deliverability matter
-- Pros: No build step, no dependencies, easiest to hand off (ZIP file works), fastest load times, Dereck is most comfortable here
+- Pros: No build step, no dependencies, easiest to hand off (ZIP file works), fastest load times, the user is most comfortable here
 - Cons: No component reuse across pages without copy-paste, no reactive UI
 - Deliver as: ZIP of static files, GitHub repo, or deploy to Netlify/Vercel with drag-and-drop
 

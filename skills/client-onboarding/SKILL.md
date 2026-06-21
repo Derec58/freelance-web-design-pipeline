@@ -1,6 +1,6 @@
 ---
 name: client-onboarding
-description: Discovery calls, client questionnaires, proposals, contracts, pricing, reviewing a contract a client sends to sign, and project kickoff for Dereck's freelance web design business. Use this skill when Dereck has a warm prospect ready for a discovery call, needs to send a questionnaire, write a proposal, draft or review a contract, discuss pricing, handle a red flag situation, or run a project kickoff. Trigger for any request involving qualifying a client, preparing for or running a discovery call, writing a proposal or quote, setting up an agreement, reviewing a client's own contract or MSA before signing, onboarding a new project, or transitioning a prospect into a paying client. Do NOT use this skill for cold outreach or finding prospects — that is client-acquisition. Do NOT use it for design, build, or post-launch and maintenance work — those are ux-research onward and post-launch.
+description: Discovery calls, client questionnaires, proposals, contracts, pricing, reviewing a contract a client sends to sign, and project kickoff for the user's freelance web design business. Use this skill when the user has a warm prospect ready for a discovery call, needs to send a questionnaire, write a proposal, draft or review a contract, discuss pricing, handle a red flag situation, or run a project kickoff. Trigger for any request involving qualifying a client, preparing for or running a discovery call, writing a proposal or quote, setting up an agreement, reviewing a client's own contract or MSA before signing, onboarding a new project, or transitioning a prospect into a paying client. Do NOT use this skill for cold outreach or finding prospects — that is client-acquisition. Do NOT use it for design, build, or post-launch and maintenance work — those are ux-research onward and post-launch.
 ---
 
 # Client Onboarding Skill
@@ -11,20 +11,20 @@ description: Discovery calls, client questionnaires, proposals, contracts, prici
 
 ## Session Start Protocol
 
-**Only run this when Dereck says there is an active project.**
+**Only run this when the user says there is an active project.**
 
 When activated, do the following based on your environment:
 
 **If you are in Claude Code (VS Code terminal):**
-Look for `project.md` at `/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm the ACQUISITION section is present and summarize what you know — business name, owner, contact, channel, scheduled call — so Dereck can confirm or correct before discovery call prep begins.
+Look for `project.md` at `~/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm the ACQUISITION section is present and summarize what you know — business name, owner, contact, channel, scheduled call — so the user can confirm or correct before discovery call prep begins.
 
-If `project.md` does not exist, `client-acquisition` skipped it. Create it at the standard path, prompt Dereck for the ACQUISITION fields, mark any unknowns as `[not captured]`, then proceed.
+If `project.md` does not exist, `client-acquisition` skipped it. Create it at the standard path, prompt the user for the ACQUISITION fields, mark any unknowns as `[not captured]`, then proceed.
 
 **If you are in claude.ai chat:**
-Ask Dereck to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask Dereck for the key context fields manually, output a filled-in ACQUISITION block, and tell him to save it to:
-`/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`
+Ask the user to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask the user for the key context fields manually, output a filled-in ACQUISITION block, and tell him to save it to:
+`~/Desktop/WebsiteProjects/[client-name]/project.md`
 
-**When complete (both environments):** After the agreement is signed and deposit confirmed paid, append this block to `project.md` — in Claude Code write it directly; in chat output it and tell Dereck to paste it in:
+**When complete (both environments):** After the agreement is signed and deposit confirmed paid, append this block to `project.md` — in Claude Code write it directly; in chat output it and tell the user to paste it in:
 
 ```markdown
 ### ONBOARDING
@@ -140,7 +140,7 @@ a proposal with what I'd recommend, roughly what it would cost,
 and the timeline. I'll have that to you within 48 hours.
 
 Does that work? And if you have any questions before then, feel
-free to call or text me at (408) 759-0778."
+free to call or text me at [your phone]."
 ```
 
 ### What to Listen For
@@ -177,8 +177,8 @@ I'm not guessing at anything.
 
 I'll have your proposal ready within 48 hours of receiving this.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 Read `references/questionnaires.md` for the full 44-question questionnaire and the 14-question fast-track version.
@@ -237,15 +237,15 @@ one-page agreement and deposit invoice. We can be started within
 [X] days.
 
 If you have questions or want to adjust scope, happy to talk —
-just reply or call me at (408) 759-0778.
+just reply or call me at [your phone].
 
-Dereck
-dereck.villagrana58@gmail.com
+[Your Name]
+[your email]
 ```
 
 ### Make It a Document for Bigger Jobs
 
-The email template above is right for most local projects. For Bay Area clients, projects over ~$1,500, or anyone more formal, send the proposal as a polished PDF instead — it reads as more professional and is harder to skim past. Use the `pdf` or `docx` skill to generate it: same content, laid out cleanly with your name, a simple header, and scope / investment / timeline as clear sections. The agreement in Step 2D can be sent the same way.
+The email template above is right for most local projects. For [a higher-cost metro] clients, projects over ~$1,500, or anyone more formal, send the proposal as a polished PDF instead — it reads as more professional and is harder to skim past. Use the `pdf` or `docx` skill to generate it: same content, laid out cleanly with your name, a simple header, and scope / investment / timeline as clear sections. The agreement in Step 2D can be sent the same way.
 
 ### Write Like You, Not Like AI
 
@@ -266,7 +266,7 @@ Adjust based on complexity, client budget signals, and how much research/content
 
 **Redesign note:** Always audit the existing codebase before scoping. If the existing site is on Wix, Squarespace, or a template builder, treat it as a new build — you're not inheriting the code, you're replacing it. If it's on a custom stack, assess whether the code is worth extending or faster to rebuild. Never commit to a redesign price before seeing what you're working with.
 
-**Bay Area clients:** Add 20–35% — higher budgets but also higher expectations for responsiveness and polish.
+**[a higher-cost metro] clients:** Add 20–35% — higher budgets but also higher expectations for responsiveness and polish.
 
 **Portfolio discount:** Early in your career, it is acceptable to offer a reduced rate in exchange for full creative control, a detailed case study, and a Google review. Define scope tightly and get it in writing.
 
@@ -297,14 +297,14 @@ Read `references/contract-clauses.md` for exact language for each clause.
 
 ### If the Client Sends You Their Own Contract
 
-Most local clients won't have one — your agreement is the default. But more established clients, agencies, and Bay Area companies sometimes send their own contractor agreement, MSA, or SOW to sign. Don't sign it as-is. Read it from your side first and watch for the clauses that quietly work against a freelancer — IP that transfers before you're paid, open-ended revisions, net-60 payment, no kill fee, broad indemnification, non-competes, and clauses that bar you from showing the work in your portfolio (which your case studies depend on).
+Most local clients won't have one — your agreement is the default. But more established clients, agencies, and [a higher-cost metro] companies sometimes send their own contractor agreement, MSA, or SOW to sign. Don't sign it as-is. Read it from your side first and watch for the clauses that quietly work against a freelancer — IP that transfers before you're paid, open-ended revisions, net-60 payment, no kill fee, broad indemnification, non-competes, and clauses that bar you from showing the work in your portfolio (which your case studies depend on).
 
 Read `references/reviewing-a-client-contract.md` for the full list of traps, plain-English explanations of why each matters, what to ask for instead, and when a deal is big or unusual enough to warrant an actual lawyer. This is practical guidance, not legal advice.
 
 ### Collecting the Deposit
 
 **Recommended payment methods:**
-- **Zelle** — free, instant, best for most clients. Send to (408) 759-0778 or dereck.villagrana58@gmail.com
+- **Zelle** — free, instant, best for most clients. Send to [your phone] or [your email]
 - **PayPal** — widely trusted, 3.49% + $0.49 fee on business payments; absorb or pass through
 - **Venmo** — fine for smaller amounts; has a business option
 - **Wave** — send a professional invoice with a pay button; client pays by card or bank transfer

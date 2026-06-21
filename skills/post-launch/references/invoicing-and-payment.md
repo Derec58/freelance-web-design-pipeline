@@ -14,7 +14,7 @@ Free invoicing, payment tracking, and basic accounting. Clients pay via credit c
 Contracts + proposals + invoices + time tracking in one place. Worth it when you have 3+ active clients or want everything integrated.
 
 **For payment collection:**
-- **Zelle** — free, instant, bank-to-bank. Best for most clients. Send to (408) 759-0778 or dereck.villagrana58@gmail.com
+- **Zelle** — free, instant, bank-to-bank. Best for most clients. Send to [your phone] or [your email]
 - **PayPal** — 3.49% + $0.49 fee on business payments. Absorb or pass through.
 - **Venmo** — fine for smaller amounts; Venmo Business has lower fees
 - **Cash / check** — always issue a written invoice. Cash income is taxable income regardless of whether a 1099 is issued.
@@ -27,11 +27,11 @@ Every invoice must include:
 
 ```
 From:
-  Dereck Villagrana
+  [Your Name]
   Web Designer
-  dereck.villagrana58@gmail.com
-  (408) 759-0778
-  Manteca, CA
+  [your email]
+  [your phone]
+  [Your City, ST]
 
 To:
   [Client Name]
@@ -47,8 +47,8 @@ SERVICES:
 TOTAL DUE:                                  $[amount]
 
 Payment:
-  Zelle: (408) 759-0778 or dereck.villagrana58@gmail.com
-  PayPal: dereck.villagrana58@gmail.com
+  Zelle: [your phone] or [your email]
+  PayPal: [your email]
 ```
 
 ---
@@ -99,17 +99,17 @@ agreement dated [date] for web design services. The original
 due date was [date]. This invoice is now [X] days past due.
 
 If payment is not received by [date 7 days from now], I will
-file a claim in San Joaquin County Small Claims Court without
+file a claim in [your county] Small Claims Court without
 further notice.
 
-Dereck Villagrana
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 **Step 2 — Small claims court (if no response)**
-- California small claims handles up to $12,500
-- San Joaquin County filing fee: $30–$75 depending on claim amount
-- File at the courthouse in Stockton: 180 E Weber Ave
+- Small claims court handles small unpaid invoices (the dollar limit varies by state — check yours)
+- [your county] filing fee: $30–$75 depending on claim amount
+- File at the courthouse in [a nearby city]: 180 E Weber Ave
 - Bring: printed copies of the agreement, all invoices, delivery proof, and all written communications
 - The judge will ask both sides to speak — keep it factual: "We agreed on X, I delivered Y, they haven't paid Z"
 - The threat of filing alone resolves about 80% of cases at this stage
@@ -154,7 +154,7 @@ Keep a simple log — even a spreadsheet works:
 |---|---|---|---|---|---|
 | 001 | Rodriguez Plumbing | $450 | 3/1 | 3/3 | Deposit |
 | 002 | Rodriguez Plumbing | $450 | 3/28 | 3/29 | Final |
-| 003 | Manteca Tile Co | $350 | 4/5 | — | Deposit — pending |
+| 003 | [your city] Tile Co | $350 | 4/5 | — | Deposit — pending |
 
 **Why this matters:** All freelance income is taxable — even Zelle and cash payments. Keeping a clear log means no surprises and makes filing straightforward.
 
@@ -181,5 +181,5 @@ Keep receipts or records for all of these — they reduce your taxable income:
 **Mileage log format:**
 ```
 Date | Start | End | Miles | Purpose
-3/15 | Home (Manteca) | Rodriguez Plumbing (Stockton) | 28 | Client kickoff meeting
+3/15 | Home ([your city]) | Rodriguez Plumbing ([a nearby city]) | 28 | Client kickoff meeting
 ```

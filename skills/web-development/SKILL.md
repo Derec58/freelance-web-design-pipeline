@@ -1,6 +1,6 @@
 ---
 name: web-development
-description: Senior front-end design partner for web build, code, SEO, accessibility, and delivery. Use this skill when Dereck needs to write HTML/CSS/JS, choose a tech stack, set up hosting, implement SEO, check accessibility, prepare a handoff package, or deploy a site. Trigger for any request involving code, framework decisions, CMS setup, Netlify/Vercel deployment, page titles, meta descriptions, schema markup, WCAG compliance, or delivering a finished site to a client. Do NOT use this skill for visual design, wireframes, or the design system — that is web-design. Do NOT use it for invoicing, maintenance plans, referrals, or post-launch client work — that is post-launch.
+description: Senior front-end design partner for web build, code, SEO, accessibility, and delivery. Use this skill when the user needs to write HTML/CSS/JS, choose a tech stack, set up hosting, implement SEO, check accessibility, prepare a handoff package, or deploy a site. Trigger for any request involving code, framework decisions, CMS setup, Netlify/Vercel deployment, page titles, meta descriptions, schema markup, WCAG compliance, or delivering a finished site to a client. Do NOT use this skill for visual design, wireframes, or the design system — that is web-design. Do NOT use it for invoicing, maintenance plans, referrals, or post-launch client work — that is post-launch.
 ---
 
 # Web Development Skill
@@ -11,21 +11,21 @@ description: Senior front-end design partner for web build, code, SEO, accessibi
 
 ## Session Start Protocol
 
-**Only run this when Dereck says there is an active project.**
+**Only run this when the user says there is an active project.**
 
 When activated, do the following based on your environment:
 
 **If you are in Claude Code (VS Code terminal):**
-Look for `project.md` at `/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm that ACQUISITION, ONBOARDING, RESEARCH, and DESIGN sections are present. Summarize what you know — business name, project type, visual direction, color tokens, typography, stack preference, timeline — so Dereck can confirm or correct before the build begins. If any prior sections are missing, note gaps but do not stop — at minimum you need project type, stack decision, and the design system spec.
+Look for `project.md` at `~/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm that ACQUISITION, ONBOARDING, RESEARCH, and DESIGN sections are present. Summarize what you know — business name, project type, visual direction, color tokens, typography, stack preference, timeline — so the user can confirm or correct before the build begins. If any prior sections are missing, note gaps but do not stop — at minimum you need project type, stack decision, and the design system spec.
 
-If `project.md` does not exist, create it at the standard path using the canonical template. Prompt Dereck for missing context and mark unknowns as `[not captured]`.
+If `project.md` does not exist, create it at the standard path using the canonical template. Prompt the user for missing context and mark unknowns as `[not captured]`.
 
 **If you are in claude.ai chat:**
-Ask Dereck to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask Dereck for the minimum build context — project type, stack decision, and design system spec — then proceed.
+Ask the user to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask the user for the minimum build context — project type, stack decision, and design system spec — then proceed.
 
 In both environments: do not ask for information already in project.md. Proceed to Step 1 — Stack Decision.
 
-**When complete (both environments):** After the site is delivered and the client confirms receipt, append this block — in Claude Code write it directly; in chat output it and tell Dereck to paste it in:
+**When complete (both environments):** After the site is delivered and the client confirms receipt, append this block — in Claude Code write it directly; in chat output it and tell the user to paste it in:
 
 ```markdown
 ### DEVELOPMENT
@@ -45,7 +45,7 @@ This skill picks up after `web-design` is complete — a fully specced design sy
 
 **What this skill receives from `web-design`:**
 - Problem statement and user journeys
-- Sitemap (approved by Dereck)
+- Sitemap (approved by the user)
 - Wireframe descriptions for all MVP pages
 - Chosen visual direction
 - Confirmed design system spec (tokens + components)
@@ -85,7 +85,7 @@ Why not: [1–2 sentences — specific to this project]
 Delivery format: [ZIP / GitHub repo / Netlify deploy / Vercel Pro]
 Build requirements: [e.g. "None — open index.html in browser"
                    or "Node 18+, npm install, npm run dev"]
-Client edits content: [Yes — via [CMS] / No — contact Dereck]
+Client edits content: [Yes — via [CMS] / No — contact the user]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -135,7 +135,7 @@ Determine whether the client needs a CMS based on the questionnaire answer: "Wil
 
 | Scenario | Recommended CMS |
 |---|---|
-| Client never edits, simple site | None — static HTML, client contacts Dereck for changes |
+| Client never edits, simple site | None — static HTML, client contacts the user for changes |
 | Client edits infrequently, simple site | Decap CMS (free, Git-based, works with Netlify) |
 | Content-heavy, editorial team | Sanity or Contentful |
 | Blog-first, newsletter important | Ghost |

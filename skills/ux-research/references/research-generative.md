@@ -27,12 +27,12 @@ Always proactively suggest a research phase before designing — even for simple
 Generate structured assumptions, build proto-personas, write JTBD statements, and propose a minimum viable research plan. Label everything clearly as assumptions.
 
 **Mode B — Some research exists**
-Dereck may provide raw notes, a description of a discovery call, or an uploaded file. Synthesize whatever exists into structured findings before proceeding. Ask follow-up questions to fill gaps.
+the user may provide raw notes, a description of a discovery call, or an uploaded file. Synthesize whatever exists into structured findings before proceeding. Ask follow-up questions to fill gaps.
 
 **Mode C — Research has been done**
 Interpret and synthesize the existing research into insights and design requirements. Do not redo work that's already been done.
 
-**Before starting, check `project.md` first.** If the ONBOARDING section exists, you already have the questionnaire answers, discovery call notes, project type, primary conversion goal, timeline, and client audience description. Don't ask Dereck to re-explain any of this.
+**Before starting, check `project.md` first.** If the ONBOARDING section exists, you already have the questionnaire answers, discovery call notes, project type, primary conversion goal, timeline, and client audience description. Don't ask the user to re-explain any of this.
 
 Ask only for what's not already in `project.md`:
 - "Do you have any analytics, reviews, or user feedback I can work from — anything beyond the questionnaire?"
@@ -479,4 +479,4 @@ What we still don't know and how we might find out:
 - [Question] → [Suggested method to answer it]
 ```
 
-Always ask Dereck to confirm before proceeding: "These are the design requirements I'm working from. Do you want to add, remove, or re-order anything before I move to wireframes?"
+Always ask the user to confirm before proceeding: "These are the design requirements I'm working from. Do you want to add, remove, or re-order anything before I move to wireframes?"

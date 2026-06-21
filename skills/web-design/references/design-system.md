@@ -654,7 +654,7 @@ Only implement dark mode when:
 
 ## 9. Design System Output Block
 
-Before starting any project, produce this formatted summary. It gives Dereck and the client a clear, scannable snapshot of the design direction before a single component is built. Output it at the end of Step 2 (Define) once the visual direction is chosen.
+Before starting any project, produce this formatted summary. It gives the user and the client a clear, scannable snapshot of the design direction before a single component is built. Output it at the end of Step 2 (Define) once the visual direction is chosen.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

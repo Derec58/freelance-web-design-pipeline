@@ -210,11 +210,11 @@ Use heuristic reviews when user testing isn't possible or as a first pass before
 
 ## 3. Analytics Interpretation
 
-Claude cannot access analytics directly, but can help interpret data Dereck pastes in and turn observations into design hypotheses.
+Claude cannot access analytics directly, but can help interpret data the user pastes in and turn observations into design hypotheses.
 
 ### Analytics Review Checklist
 
-When Dereck shares analytics data, check for and interpret these signals:
+When the user shares analytics data, check for and interpret these signals:
 
 **Traffic and acquisition:**
 - [ ] Top traffic sources — does the design serve these audiences? (organic vs paid vs referral behave differently)
@@ -246,7 +246,7 @@ When Dereck shares analytics data, check for and interpret these signals:
 ## Analytics Interpretation — [Project Name]
 
 ### Data Provided
-[Summary of what Dereck shared]
+[Summary of what the user shared]
 
 ### Key Observations
 1. [Observation — e.g. "70% of traffic is mobile but mobile conversion is 3x lower than desktop"]
@@ -269,7 +269,7 @@ Based on the data, address these in order:
 
 ## 4. Heatmap and Session Recording Analysis
 
-Claude can provide a rubric for interpreting heatmaps and session recordings that Dereck describes or summarizes.
+Claude can provide a rubric for interpreting heatmaps and session recordings that the user describes or summarizes.
 
 ### Heatmap Interpretation Rubric
 
@@ -316,7 +316,7 @@ Design recommendation: [Specific change]
 
 ## 5. A/B Testing and Experimentation
 
-Claude can help plan A/B tests, define hypotheses and success metrics, and interpret results Dereck pastes in.
+Claude can help plan A/B tests, define hypotheses and success metrics, and interpret results the user pastes in.
 
 ### When to A/B Test
 A/B testing is worth the effort when:
@@ -373,7 +373,7 @@ because [reason grounded in research or data]."
 
 ### Interpreting A/B Test Results
 
-When Dereck shares test results:
+When the user shares test results:
 ```markdown
 ## A/B Test Results — [Test Name]
 
@@ -476,7 +476,7 @@ Design requirement: Display 3 trust signals above the fold —
 
 ## 7. Post-Launch Research
 
-Research doesn't end at launch. Claude can help Dereck plan ongoing feedback loops and evaluate design changes after they ship.
+Research doesn't end at launch. Claude can help the user plan ongoing feedback loops and evaluate design changes after they ship.
 
 ### Feedback Collection Strategy
 

@@ -6,7 +6,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Claude Skills](https://img.shields.io/badge/Claude-Skills-7B5EA7)
-![Skills](https://img.shields.io/badge/skills-6-7B5EA7)
+![Skills](https://img.shields.io/badge/skills-6%20stages%20%2B%20orchestrator-7B5EA7)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Built for](https://img.shields.io/badge/built%20for-Claude%20Code%20%26%20Claude.ai-7B5EA7)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
@@ -24,6 +24,7 @@
 - [Architecture: the `project.md` handoff](#architecture-the-projectmd-handoff)
 - [The Impeccable Command Layer](#the-impeccable-command-layer)
 - [Installation](#installation)
+- [Personalize It](#personalize-it)
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Roadmap](#roadmap)
@@ -49,6 +50,7 @@ Most "AI for freelancers" tooling is a pile of disconnected prompts. The problem
 
 ```mermaid
 flowchart LR
+    S([/start-project]) --> A[client-acquisition]
     A[client-acquisition] --> B[client-onboarding]
     B --> C[ux-research]
     C --> D[web-design]
@@ -57,7 +59,9 @@ flowchart LR
     F -.->|case studies, referrals,<br/>raised rates| A
 
     classDef stage fill:#7B5EA7,stroke:#4A3A66,color:#fff,rx:6,ry:6;
+    classDef kickoff fill:#4A3A66,stroke:#2D2440,color:#fff,rx:6,ry:6;
     class A,B,C,D,E,F stage;
+    class S kickoff;
 ```
 
 1. **Each skill activates only for its stage** and declares a "when NOT to use" boundary, so the right skill fires and the others stay out of the way.
@@ -65,6 +69,8 @@ flowchart LR
 3. **The loop closes** — `post-launch` produces the case studies, referrals, and social proof that feed straight back into `client-acquisition`.
 
 ## The Six Skills
+
+> ⚡ **Start here:** run **`start-project`** (say *"start a new project"* or `/start-project`). It's the one command that creates the `project.md` handoff file and routes you to the right stage — use it instead of waiting for a stage skill to self-trigger. The six stages it orchestrates:
 
 | # | Skill | Stage | What it does | Key references |
 |---|-------|-------|--------------|----------------|
@@ -104,9 +110,24 @@ cp -r freelance-web-design-pipeline/skills/* ~/.claude/skills/
 
 > Skill installation paths and mechanics evolve — check the current [Claude docs](https://docs.claude.com) and [Anthropic's skills repo](https://github.com/anthropics/skills) for the latest.
 
+## Personalize It
+
+The skills are written generically with fill-in placeholders so anyone can use them. Before (or as) you run a project, replace these with your own details — a quick find-and-replace across `skills/` does it, or just let Claude fill them as it goes:
+
+| Placeholder | Replace with |
+|---|---|
+| `[Your Name]` | your name (used in outreach, proposals, invoices, sign-offs) |
+| `[your email]` / `[your phone]` | your contact details and payment handles |
+| `[your-portfolio.com]` | your portfolio or business domain |
+| `[your-username]` | your GitHub username |
+| `[your city]` / `[your region]` / `[Your City, ST]` / `[a nearby city]` / `[a higher-cost metro]` | your location and service area |
+| `~/Desktop/WebsiteProjects/` | wherever you keep client work |
+
+A few things are intentionally **left for you to confirm locally**: legal specifics (small-claims limits, contract enforceability, tax rules) vary by jurisdiction — the skills flag these as "check your local rules" rather than assert a number, so verify them for where you operate. Illustrative examples in the reference docs (e.g. a sample "Rodriguez Plumbing" in a city) are just teaching examples — leave them or swap in your own.
+
 ## Usage
 
-1. **Start a project.** When a real lead appears, `client-acquisition` creates `project.md` from the template.
+1. **Start a project.** Run `start-project` (or just say *"start a new project"*). It creates `project.md` from the template and routes you to the right stage.
 2. **Move down the pipeline.** Tell Claude there's an active project; each stage reads the file, does its work, and appends its block.
 3. **Hand off.** In Claude Code the file is written directly; in the app you paste it in and out.
 4. **Close the loop.** `post-launch` closes out the money and produces case studies that feed back into acquisition.
@@ -129,6 +150,8 @@ freelance-web-design-pipeline/
 ├── examples/
 │   └── example-project-reyes-landscaping.md   # a full project, filled start to finish
 └── skills/
+    ├── start-project/                  # ⚡ pipeline entry point — one command to start
+    │   └── SKILL.md
     ├── client-acquisition/
     │   ├── SKILL.md
     │   └── references/

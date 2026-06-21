@@ -74,7 +74,7 @@ For each objection below: what they say → why they're really saying it → how
 ### "How do I know you're any good?" / "Can I see your work?"
 **Why:** Completely fair, especially from a cold contact. This is where social proof does the work — never get defensive about it.
 **Response:**
-> "Absolutely — you should see what you'd be getting. [Share your strongest example / live site you built / dereckvilla.design once live.] I'm local, so I'm not going anywhere — and I'm happy to meet in person so you know exactly who you're working with. Want me to walk you through a couple of examples on a quick call?"
+> "Absolutely — you should see what you'd be getting. [Share your strongest example / live site you built / [your-portfolio.com] once live.] I'm local, so I'm not going anywhere — and I'm happy to meet in person so you know exactly who you're working with. Want me to walk you through a couple of examples on a quick call?"
 
 *(If you don't have local case studies yet: be honest. "I'm early in building my local portfolio, which is part of why my pricing is fair right now — but here's my best work and exactly what I'd do for you." Honesty converts skeptics better than bluffing.)*
 

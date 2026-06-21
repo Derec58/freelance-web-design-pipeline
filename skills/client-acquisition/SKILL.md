@@ -1,6 +1,6 @@
 ---
 name: client-acquisition
-description: Cold outreach, prospect research, lead qualification, and lead generation for Dereck's freelance web design business. Use this skill when Dereck wants to find potential clients, research a prospect before reaching out, write a cold email or DM, prepare for a cold call, plan an in-person visit, follow up with a non-responding lead, qualify whether a prospect is worth pursuing, or handle objections during outreach. Trigger for any request involving finding clients, writing outreach messages, researching a business before contacting them, qualifying a lead, or preparing outreach scripts for any channel. Do NOT use this skill once a prospect has agreed to a discovery call — that is client-onboarding. Do NOT use it for work with existing or signed clients — that is post-launch.
+description: Cold outreach, prospect research, lead qualification, and lead generation for the user's freelance web design business. Use this skill when the user wants to find potential clients, research a prospect before reaching out, write a cold email or DM, prepare for a cold call, plan an in-person visit, follow up with a non-responding lead, qualify whether a prospect is worth pursuing, or handle objections during outreach. Trigger for any request involving finding clients, writing outreach messages, researching a business before contacting them, qualifying a lead, or preparing outreach scripts for any channel. Do NOT use this skill once a prospect has agreed to a discovery call — that is client-onboarding. Do NOT use it for work with existing or signed clients — that is post-launch.
 ---
 
 # Client Acquisition Skill
@@ -11,16 +11,16 @@ description: Cold outreach, prospect research, lead qualification, and lead gene
 
 ## Session Start Protocol
 
-**Only run this when Dereck says there is an active project.**
+**Only run this when the user says there is an active project.**
 
-This is the first skill in the pipeline, so there is no prior `project.md` to read. When Dereck confirms a prospect has agreed to a call and the project is moving forward, do the following:
+This is the first skill in the pipeline, so there is no prior `project.md` to read. When the user confirms a prospect has agreed to a call and the project is moving forward, do the following:
 
 **If you're in Claude Code (VS Code terminal):**
 
-Ask Dereck for the client name, then create the project folder and `project.md` at:
-`/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`
+Ask the user for the client name, then create the project folder and `project.md` at:
+`~/Desktop/WebsiteProjects/[client-name]/project.md`
 
-Fill in the ACQUISITION section from what Dereck has shared. Prompt for any fields not yet mentioned:
+Fill in the ACQUISITION section from what the user has shared. Prompt for any fields not yet mentioned:
 
 ```markdown
 # Project: [Business Name]
@@ -38,12 +38,12 @@ Last updated: [date]
 - Scheduled call: [date and time]
 ```
 
-Show Dereck the completed block, confirm it looks right, and tell him the next step is `client-onboarding`.
+Show the user the completed block, confirm it looks right, and tell him the next step is `client-onboarding`.
 
 **If you're in claude.ai chat:**
 
-Ask Dereck to share what he knows about the prospect — business name, owner, how they responded, what was said, when the call is scheduled. Fill in the ACQUISITION block above from what he shares, output it cleanly, and tell him to copy it into a new file at:
-`/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`
+Ask the user to share what he knows about the prospect — business name, owner, how they responded, what was said, when the call is scheduled. Fill in the ACQUISITION block above from what he shares, output it cleanly, and tell him to copy it into a new file at:
+`~/Desktop/WebsiteProjects/[client-name]/project.md`
 
 He can create that file manually in VS Code or via terminal: `mkdir -p ~/Desktop/WebsiteProjects/[client-name] && touch ~/Desktop/WebsiteProjects/[client-name]/project.md`
 
@@ -67,12 +67,12 @@ This is the first step of the freelance pipeline. Its job is to identify the rig
 
 ## Who You Are
 
-Dereck Villagrana — solo freelance web designer based in Manteca, CA. You design and build custom websites for local businesses and small companies in the Central Valley (Manteca, Stockton, Tracy, Modesto) and Bay Area (San Jose and surrounding areas).
+[Your Name] — solo freelance web designer based in [Your City, ST]. You design and build custom websites for local businesses and small companies in your area and nearby higher-cost metros.
 
 **Contact:**
-- Email: dereck.villagrana58@gmail.com
-- Phone: (408) 759-0778
-- Portfolio: dereckvilla.design (in progress — update scripts once live)
+- Email: [your email]
+- Phone: [your phone]
+- Portfolio: [your-portfolio.com] (in progress — update scripts once live)
 
 ---
 
@@ -96,9 +96,9 @@ Use the most relevant one per prospect. Never lead with all of them — pick the
 
 Nothing converts a skeptical local owner like proof you've done this for someone like them. Once you have even one completed site, every script below gets stronger.
 
-- **In outreach:** add a single line — "I recently built [similar local business] a new site, and now [specific result, e.g. 'they show up on the first page for plumber + Manteca']." One sentence. Specifics beat adjectives.
+- **In outreach:** add a single line — "I recently built [similar local business] a new site, and now [specific result, e.g. 'they show up on the first page for plumber + [your city]']." One sentence. Specifics beat adjectives.
 - **On a call or in person:** pull the live site up on your phone. A real, working example you built locally beats any portfolio page or pitch.
-- **Your portfolio:** point to dereckvilla.design once it's live. Until you have local case studies, lead with your strongest existing work and be honest that it's recent.
+- **Your portfolio:** point to [your-portfolio.com] once it's live. Until you have local case studies, lead with your strongest existing work and be honest that it's recent.
 - **Anti-pattern:** never oversell or invent results. One true, specific example beats three vague claims — and a local owner will find out if you stretched the truth.
 
 **Your current examples — keep this list current as you ship work:**
@@ -156,12 +156,12 @@ Before contacting anyone, spend 5 minutes on their current situation. This is wh
 **Make a note:** Business name, owner name (from GBP or website), website URL or "none," 2–3 specific observations, best contact channel.
 
 ### Where to Find Prospects
-- **Google Maps:** Search "[trade] near Manteca CA" or "[trade] near San Jose CA" — filter by no website or poor website
+- **Google Maps:** Search "[trade] near [your city]" or "[trade] near [a nearby metro]" — filter by no website or poor website
 - **Yelp:** Same search — many list on Yelp but have no site
 - **Instagram:** Local hashtags — #mantecabusiness #centralvalleybusiness #sanjosesmallbusiness #stocktonbusiness #traceybusiness
-- **Facebook:** Local business groups (Central Valley Business Network, etc.)
-- **Drive around:** Service vehicles, storefronts, yard signs in Manteca, Tracy, Stockton, Modesto
-- **Chamber of Commerce directories:** Manteca, Tracy, Stockton, San Jose
+- **Facebook:** Local business groups ([your region] Business Network, etc.)
+- **Drive around:** Service vehicles, storefronts, yard signs in [your city] and surrounding towns
+- **Chamber of Commerce directories:** [your city] and nearby towns
 - **Nextdoor:** Business section
 - **LinkedIn:** Local business search
 
@@ -200,7 +200,7 @@ For pushback during or after outreach — price, "my nephew can do it," "I get b
 **They don't rank on Google:**
 > "I searched '[service] in [city]' and your business didn't come up — even though your reviews suggest you should be near the top. That's worth fixing."
 
-**Bay Area / professional tone:**
+**[a higher-cost metro] / professional tone:**
 > "I came across [Business Name] while researching [industry] businesses in [city]. Your work looks excellent. I wanted to flag that your website [specific observation] — in a competitive market like [city], that quietly costs you inquiries."
 
 ---
@@ -218,8 +218,8 @@ Subject: Re: [original subject]
 Hi [Name] — just making sure this didn't get buried.
 Happy to share what I found if you're open to a quick look.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 **After two contacts with no response:** Move on. Archive and revisit in 3–6 months.

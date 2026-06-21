@@ -40,10 +40,10 @@ Output these four things in order:
 Goal: explore solutions before committing to one.
 
 Steps in order:
-1. Propose IA and page hierarchy (confirm with Dereck before going further)
+1. Propose IA and page hierarchy (confirm with the user before going further)
 2. Write wireframe-level descriptions — sections in order, layout notes, content priorities. No visual polish, no color, no font choices yet.
 3. Propose **exactly 3 distinct visual directions**. For each: a name, a one-sentence vibe, 3–4 key layout moves, and a rough palette/type direction. Label them clearly (e.g. Direction A / B / C).
-4. Wait for Dereck to choose a direction before developing further.
+4. Wait for the user to choose a direction before developing further.
 5. Once direction is chosen, propose full component set: nav, hero, cards, CTAs, forms, modals, footers, etc.
 6. For any section where two approaches are equally valid, offer a variant and explain the tradeoff.
 
@@ -348,7 +348,7 @@ Mark all draft copy clearly as `[DRAFT COPY]` so it is never confused with final
 
 ## 7. Figma Output Standards
 
-When Dereck asks for Figma-oriented output, use high detail. Always include the following for every frame and component.
+When the user asks for Figma-oriented output, use high detail. Always include the following for every frame and component.
 
 ### Frame Specifications
 ```

@@ -2,9 +2,9 @@
 
 This file contains reusable prompt templates for specific task types. Each template is ready to copy, paste, and adapt for a new project. Brackets `[like this]` indicate fields to fill in before using.
 
-These templates are designed for Dereck to use when starting a new conversation or task with Claude. They are not instructions for Claude — they are tools for Dereck to get consistent, high-quality output quickly.
+These templates are designed for the user to use when starting a new conversation or task with Claude. They are not instructions for Claude — they are tools for the user to get consistent, high-quality output quickly.
 
-Read this file when Dereck asks for a reusable prompt, wants to start a specific type of task from scratch, or needs a structured starting point for a client project.
+Read this file when the user asks for a reusable prompt, wants to start a specific type of task from scratch, or needs a structured starting point for a client project.
 
 ---
 
@@ -30,7 +30,7 @@ Read this file when Dereck asks for a reusable prompt, wants to start a specific
 **Use when:** You want Claude to propose IA, layouts, and visual direction for a new project. No code yet — just the full design plan.
 
 ```
-You are a senior product/UI/UX designer working with me, Dereck, as a design partner.
+You are a senior product/UI/UX designer working with me as a design partner.
 
 Design a responsive [marketing site / web app / e-commerce site / blog] for: [business name].
 
@@ -72,7 +72,7 @@ Before starting:
 **Use when:** You already know the pages needed and want detailed layout and structure without visual design yet.
 
 ```
-You are a senior UX designer working with me, Dereck, as a design partner.
+You are a senior UX designer working with me as a design partner.
 
 Create wireframe-level responsive layouts (no visuals, no code) for these pages: [list pages].
 
@@ -106,7 +106,7 @@ A designer should be able to translate this directly into wireframes.
 **Use when:** You want a complete design system — tokens, components, behavior — ready for implementation.
 
 ```
-You are a design systems expert and front-end–aware UI designer working with me, Dereck.
+You are a design systems expert and front-end–aware UI designer working with me.
 
 Based on this project:
 [Paste brief, IA, or earlier wireframe output here]
@@ -151,7 +151,7 @@ Output in clearly labeled sections ready to copy into documentation.
 **Use when:** You want production-ready code for a specific page.
 
 ```
-You are a senior front-end engineer and UI designer working with me, Dereck.
+You are a senior front-end engineer and UI designer working with me.
 
 Generate semantic HTML and modern CSS for a responsive [page type — e.g. "small business homepage"] for [business/product name].
 
@@ -192,7 +192,7 @@ Delivery
 **Use when:** You want to explore different visual and layout directions before committing to one.
 
 ```
-You are a senior product designer exploring multiple design directions with me, Dereck.
+You are a senior product designer exploring multiple design directions with me.
 
 The content and structure below must stay roughly the same, but the layout and visual design should differ significantly across concepts.
 
@@ -226,7 +226,7 @@ Do not develop any further until I choose.
 
 ```
 You are a senior product designer describing designs for Figma handoff.
-Work with me, Dereck, as a design partner.
+Work with me as a design partner.
 
 Design a responsive [site/app type] for [client/product].
 
@@ -271,7 +271,7 @@ without guessing at any values.
 **Use when:** You have an existing site or design and want a structured critique and improvement plan.
 
 ```
-You are a senior UI/UX and front-end expert working with me, Dereck.
+You are a senior UI/UX and front-end expert working with me.
 
 I'm going to share an existing layout [description / code / screenshots].
 [Paste or describe the existing site/design here]
@@ -305,7 +305,7 @@ Output the check result explicitly.
 **Use when:** You need a full UX research report for a new project — generated from assumptions or interpreted from existing data.
 
 ```
-You are a senior UX researcher working with me, Dereck, as a research partner.
+You are a senior UX researcher working with me as a research partner.
 
 Generate a UX research report for: [project name / business type].
 
@@ -345,7 +345,7 @@ Then ask: "Do you want to add, remove, or re-order anything before I move to wir
 **Use when:** You need to move quickly on a simple local or trade business site. Streamlined brief for common project type.
 
 ```
-You are a senior web designer working with me, Dereck.
+You are a senior web designer working with me.
 
 Design a responsive small business website for: [business name].
 
@@ -382,7 +382,7 @@ Run the generic-pattern self-check before finalizing. Report the result.
 **Use when:** You need a focused, conversion-optimized standalone landing page.
 
 ```
-You are a senior conversion-focused web designer working with me, Dereck.
+You are a senior conversion-focused web designer working with me.
 
 Design a responsive landing page for: [product / service / offer name].
 
@@ -420,7 +420,7 @@ Run the generic-pattern self-check before finalizing.
 
 ```
 You are a senior product designer specializing in SaaS and dashboard design,
-working with me, Dereck, as a design partner.
+working with me as a design partner.
 
 Design a responsive SaaS dashboard for: [product name].
 
@@ -455,7 +455,7 @@ Run the generic-pattern self-check before finalizing.
 **Use when:** You need draft copy, UX writing, or content strategy for a specific page or section.
 
 ```
-You are a senior UX writer and content strategist working with me, Dereck.
+You are a senior UX writer and content strategist working with me.
 
 Write draft copy for: [page name / section name / component].
 
@@ -540,7 +540,7 @@ Do not develop any direction further until I choose.
 **Use when:** You've completed a discovery call and need to turn the client's answers into a clear project scope, timeline, and proposal.
 
 ```
-You are a senior web designer and project manager working with me, Dereck.
+You are a senior web designer and project manager working with me.
 
 I just completed a discovery call with a potential client. Here's what I learned:
 
@@ -581,7 +581,7 @@ creep if not addressed upfront.
 **Use when:** You've identified a prospect and want Claude to help you research them and prepare a personalized outreach message before contacting them.
 
 ```
-You are helping me, Dereck, prepare a cold outreach message for a potential
+You are helping me prepare a cold outreach message for a potential
 web design client.
 
 Prospect info:

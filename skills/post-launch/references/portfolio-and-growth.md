@@ -106,12 +106,12 @@ who wants to know if I can do good work for a business like theirs.
 
 ## Where to Host Your Portfolio
 
-**Primary: your own site (dereckvilla.design)**
+**Primary: your own site ([your-portfolio.com])**
 You are a web designer — your portfolio site is itself a demonstration of your skill. Keep it focused: who you are and what you do above the fold, 2–4 case studies, easy contact (phone number, email, contact form), Google reviews and testimonials.
 
 **Secondary platforms:**
 - **Behance** — free, good for discoverability and industry credibility
-- **LinkedIn** — critical for Bay Area outreach; upload portfolio pieces to your profile's Featured section
+- **LinkedIn** — critical for [a higher-cost metro] outreach; upload portfolio pieces to your profile's Featured section
 - **Dribbble** — more UI/visual focused; useful once you have strong visual work to show
 
 ---
@@ -169,13 +169,13 @@ It's been [a week] since we launched — how's everything looking?
 Any small tweaks you want to make?
 
 Also, if you know any other business owners who could use a website,
-I'd love an introduction. A simple "you should talk to Dereck"
+I'd love an introduction. A simple "you should talk to [Your Name]"
 goes a long way, and I'll take great care of anyone you send my way.
 
 Thanks again — it was a great project.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 ### Referral Incentive (Optional)
@@ -226,8 +226,8 @@ Set this up before you have 2 active projects running simultaneously.
 
 ### Professional Email
 - Gmail works for now
-- When dereckvilla.design is live, upgrade to Google Workspace ($6/month) or Zoho Mail (free)
-- `dereck@dereckvilla.design` is a meaningful credibility upgrade, especially for Bay Area clients
+- When [your-portfolio.com] is live, upgrade to Google Workspace ($6/month) or Zoho Mail (free)
+- `you@[your-portfolio.com]` is a meaningful credibility upgrade, especially for [a higher-cost metro] clients
 
 ---
 
@@ -240,8 +240,8 @@ Your current starting prices are intentionally reasonable to build your portfoli
 | Starting out | Now | Use current pricing table from `client-onboarding` |
 | Early traction | After 3–5 completed projects with case studies | Raise all floors by 30–50% |
 | Established | After 10+ projects | Revisit based on market feedback and demand |
-| Specialized | When you have a niche (trades, restaurants, Bay Area tech) | Premium pricing for your niche |
+| Specialized | When you have a niche (trades, restaurants, [a higher-cost metro] tech) | Premium pricing for your niche |
 
 **Raise prices confidently.** When you get a client without them hesitating at your price, you're undercharging. The goal is to occasionally hear "that's a bit more than I expected" — that's the signal you're priced correctly.
 
-**Bay Area clients:** Already add 20–35% to Central Valley rates. As your Bay Area case studies grow, lean into this market — budgets are higher and a portfolio of Bay Area work commands premium rates.
+**[a higher-cost metro] clients:** Already add 20–35% to [your region] rates. As your [a higher-cost metro] case studies grow, lean into this market — budgets are higher and a portfolio of [a higher-cost metro] work commands premium rates.

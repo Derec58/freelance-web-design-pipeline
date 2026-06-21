@@ -63,7 +63,7 @@ Answer these before recommending a stack:
 - [ ] Does the site have user accounts or authentication?
 - [ ] Does the site have real-time data or complex dynamic state?
 - [ ] Does SEO matter significantly? (affects SSR/SSG decision)
-- [ ] What is Dereck's comfort level with this stack? (vanilla is most comfortable)
+- [ ] What is the user's comfort level with this stack? (vanilla is most comfortable)
 - [ ] What is the client's technical level? (affects hosting and handoff choices)
 - [ ] Is there a hard performance requirement? (favors vanilla or Astro)
 - [ ] Is there a tight timeline? (favors vanilla — no build step, fastest to ship)
@@ -78,7 +78,7 @@ Answer these before recommending a stack:
 - Simple marketing and branding sites
 - Standalone landing pages
 - Any project where simplicity, speed of delivery, and easy handoff matter most
-- When Dereck is working solo and timeline is tight
+- When the user is working solo and timeline is tight
 - When the client is non-technical and needs to receive files they can open directly
 
 ### Strengths
@@ -86,7 +86,7 @@ Answer these before recommending a stack:
 - No dependencies — nothing to install, nothing to break, nothing to update
 - Easiest handoff — ZIP file works, anyone can receive and use it
 - Fastest load times — no framework overhead
-- Dereck is most comfortable here — fastest path from design to working code
+- the user is most comfortable here — fastest path from design to working code
 - Future-proof — vanilla HTML/CSS/JS will work forever
 
 ### Weaknesses
@@ -187,7 +187,7 @@ img { max-width: 100%; display: block; }
 - Projects where a design system needs to be applied systematically
 - Multi-page sites where visual consistency across many components matters
 - When the client or future developer is familiar with Tailwind
-- When Dereck wants utility-first styling without a full framework
+- When the user wants utility-first styling without a full framework
 
 ### Strengths
 - Consistent spacing, sizing, and color via utility classes
@@ -363,7 +363,7 @@ npm run dev
 ### When NOT to use
 - SaaS dashboards or web apps with complex state
 - Projects where the client team will build on top of it using React
-- When Dereck is unfamiliar and timeline is tight (stick to vanilla or React)
+- When the user is unfamiliar and timeline is tight (stick to vanilla or React)
 
 ---
 
@@ -393,7 +393,7 @@ Why not: [1–2 sentences.]
 Delivery format: [ZIP of static files / GitHub repo / Vercel deploy / Netlify deploy]
 Build requirements: [e.g. "None — open index.html directly in a browser"
                    or "Node 18+, run npm install then npm run dev"]
-Client can edit content: [Yes — via [CMS name] / No — contact Dereck for changes]
+Client can edit content: [Yes — via [CMS name] / No — contact the user for changes]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -426,7 +426,7 @@ would hurt Core Web Vitals and add unnecessary complexity.
 
 Delivery format: ZIP of static files + GitHub repo
 Build requirements: None — open index.html directly in any browser
-Client can edit content: No — contact Dereck for content changes
+Client can edit content: No — contact the user for content changes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -638,10 +638,10 @@ dist/
 4. Document the transfer process in the README
 
 ### Live Deployed Site (Vercel/Netlify)
-**When to use:** When Dereck is managing hosting for the client, or when the client wants a live URL they can share immediately.
+**When to use:** When the user is managing hosting for the client, or when the client wants a live URL they can share immediately.
 
 **Handoff options:**
-- **Dereck manages hosting:** Client pays Dereck, Dereck maintains the deployment. Add client as viewer in platform.
+- **the user manages hosting:** Client pays the user, the user maintains the deployment. Add client as viewer in platform.
 - **Client takes ownership:** Transfer project to client's Vercel/Netlify account. Walk them through the dashboard.
 - **Client self-hosts:** Deliver GitHub repo + README with deploy instructions. Client sets up their own Vercel/Netlify account.
 
@@ -664,7 +664,7 @@ Every project delivery — regardless of format — must include these minimum c
 - **Stack:** [e.g. Vanilla HTML/CSS/JS]
 - **Live URL:** [URL or "Not yet deployed"]
 - **Repo:** [GitHub URL or "Local only"]
-- **Designed by:** Dereck ([contact])
+- **Designed by:** [Your Name] ([contact])
 - **Delivered:** [Date]
 
 ## Design Decisions
@@ -736,14 +736,14 @@ Go to [Studio URL] and log in with your Sanity credentials.
 \`\`\`
 VARIABLE_NAME=description of what this is
 \`\`\`
-Contact Dereck for actual values — never commit these to the repository.
+Contact the user for actual values — never commit these to the repository.
 
 ## Known Issues / Future Work
 - [Any known bugs or limitations]
 - [Features planned for future phases]
 
 ## Contact
-Built by Dereck. For questions or updates: [contact info]
+Built by the user. For questions or updates: [contact info]
 ```
 
 ### Design Decisions Summary

@@ -39,16 +39,16 @@ search [service] [city]"]. For a business with your reputation,
 that's probably costing you customers who find you on their phone
 and leave.
 
-I'm Dereck, a web designer based in Manteca, CA. I build custom
+I'm [Your Name], a web designer based in [Your City, ST]. I build custom
 websites for local businesses — no templates, no platform lock-in,
 you own the code.
 
 Would you be open to a quick 15-minute call this week? I'd be happy
 to show you what I found and what a better site could look like.
 
-Dereck
-(408) 759-0778
-dereck.villagrana58@gmail.com
+[Your Name]
+[your phone]
+[your email]
 [portfolio — to be added]
 ```
 
@@ -65,19 +65,19 @@ Most people searching for [service] on their phone expect to find
 a site before calling. Without one, you're likely losing customers
 to competitors who have one — even if your work is better.
 
-I'm Dereck, a web designer based in Manteca, CA. I build custom
+I'm [Your Name], a web designer based in [Your City, ST]. I build custom
 websites for local businesses — fast, mobile-friendly, built to
 show up on Google. No Wix, no monthly platform fees — you own it.
 
 Would a 15-minute call this week make sense? No pressure — just
 a conversation.
 
-Dereck
-(408) 759-0778
-dereck.villagrana58@gmail.com
+[Your Name]
+[your phone]
+[your email]
 ```
 
-**Template C — Bay Area / more professional tone:**
+**Template C — [a higher-cost metro] / more professional tone:**
 ```
 Subject: Website feedback for [Business Name]
 
@@ -91,16 +91,16 @@ I wanted to flag that your website [specific observation]. In a
 competitive market like [city], a site that doesn't perform well
 on mobile or load quickly can quietly cost you inquiries.
 
-I'm a product designer based in Manteca, CA, currently working
-with Bay Area businesses on custom websites — designed around your
+I'm a product designer based in [Your City, ST], currently working
+with [a higher-cost metro] businesses on custom websites — designed around your
 specific customers, built to rank locally, delivered as code you
 fully own.
 
 If you'd like a quick, no-obligation look at what's holding your
-current site back, just reply or call me at (408) 759-0778.
+current site back, just reply or call me at [your phone].
 
-Dereck
-dereck.villagrana58@gmail.com
+[Your Name]
+[your email]
 ```
 
 **Email best practices:**
@@ -124,7 +124,7 @@ The goal of a cold call is not to sell the project — it is to earn a discovery
 ```
 "Hi, is this [Name]? / Can I speak with the owner?
 
-Great — my name's Dereck, I'm a web designer based in Manteca.
+Great — my name's the user, I'm a web designer based in [your city].
 I'm calling because I came across [Business Name] online and noticed
 [specific observation — e.g. 'your site doesn't come up when I
 search [service] in [city]' / 'your website doesn't load well on
@@ -175,7 +175,7 @@ Use for warm leads — people you've briefly met, spoken to, or who've been refe
 
 **Template A — After a brief in-person interaction:**
 ```
-Hey [Name], this is Dereck — we spoke briefly at [location/event].
+Hey [Name], this is the user — we spoke briefly at [location/event].
 I build websites for local businesses in the area. I took a quick
 look at [Business Name]'s site and had a few thoughts.
 
@@ -184,7 +184,7 @@ Would a 10-minute call this week work?
 
 **Template B — Warm referral:**
 ```
-Hi [Name], I'm Dereck — [mutual contact] mentioned you might be
+Hi [Name], I'm [Your Name] — [mutual contact] mentioned you might be
 looking to update your website. I build custom sites for local
 businesses — no templates, you own the code.
 
@@ -219,7 +219,7 @@ Works well for visually-oriented businesses — photographers, restaurants, salo
 ```
 Hey [Name] — love the work you're putting out. Genuinely great.
 
-I'm Dereck, a web designer. I noticed your site doesn't quite do
+I'm [Your Name], a web designer. I noticed your site doesn't quite do
 your work justice — [specific observation e.g. 'hard to navigate
 on mobile' / 'portfolio doesn't load well'].
 
@@ -235,7 +235,7 @@ businesses in [city]. Your reviews are impressive.
 Noticed your website [specific issue]. For a business with your
 reputation, that's probably costing you inquiries.
 
-I'm a web designer in Manteca. Would a short call to walk through
+I'm a web designer in [your city]. Would a short call to walk through
 what I found make sense?
 ```
 
@@ -276,7 +276,7 @@ Highest conversion channel for local small businesses. A face and a handshake bu
 
 **Opening script:**
 ```
-"Hi — I'm Dereck, I'm a web designer based here in [city].
+"Hi — I'm [Your Name], I'm a web designer based here in [city].
 I was in the area and stopped in because I came across your
 business online and noticed [specific observation].
 
@@ -326,8 +326,8 @@ make sure it didn't get buried.
 If now isn't the right time, no worries at all. But if you're open
 to a quick look at your website, I'd love to share what I found.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 **Email follow-up 2 (7–10 days after follow-up 1 — only if they've shown interest):**
@@ -339,11 +339,11 @@ Hi [Name],
 Last follow-up from me — I know inboxes get busy.
 
 If improving your web presence becomes a priority, I'd love to help.
-You can reach me at (408) 759-0778 or just reply here.
+You can reach me at [your phone] or just reply here.
 
 Wishing [Business Name] continued success.
 
-Dereck
+[Your Name]
 ```
 
 After two follow-ups with no response — move on. Archive and revisit in 3–6 months.

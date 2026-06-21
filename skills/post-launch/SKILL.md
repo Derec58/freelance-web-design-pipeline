@@ -1,6 +1,6 @@
 ---
 name: post-launch
-description: Post-launch business operations for Dereck's freelance web design practice — final invoicing, payment collection, recurring revenue packages, referral systems, portfolio building, case studies, expense and tax tracking, business tools, conflict resolution, and ongoing client management. Use this skill when Dereck needs to send a final invoice, follow up on payment, set up a maintenance plan, ask for a referral, write a case study, track business expenses, handle a difficult client situation, or manage any aspect of running the business after a project ships. Trigger for any request involving money, invoicing, recurring revenue, referrals, case studies, or post-project work. Do NOT use this skill for finding clients or cold outreach — that is client-acquisition. Do NOT use it for the project work itself — discovery, research, design, or build — those are client-onboarding through web-development.
+description: Post-launch business operations for the user's freelance web design practice — final invoicing, payment collection, recurring revenue packages, referral systems, portfolio building, case studies, expense and tax tracking, business tools, conflict resolution, and ongoing client management. Use this skill when the user needs to send a final invoice, follow up on payment, set up a maintenance plan, ask for a referral, write a case study, track business expenses, handle a difficult client situation, or manage any aspect of running the business after a project ships. Trigger for any request involving money, invoicing, recurring revenue, referrals, case studies, or post-project work. Do NOT use this skill for finding clients or cold outreach — that is client-acquisition. Do NOT use it for the project work itself — discovery, research, design, or build — those are client-onboarding through web-development.
 ---
 
 # Post-Launch Skill
@@ -11,21 +11,21 @@ description: Post-launch business operations for Dereck's freelance web design p
 
 ## Session Start Protocol
 
-**Only run this when Dereck says there is an active project.**
+**Only run this when the user says there is an active project.**
 
 When activated, do the following based on your environment:
 
 **If you are in Claude Code (VS Code terminal):**
-Look for `project.md` at `/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm which prior sections are present (ACQUISITION, ONBOARDING, RESEARCH, DESIGN, DEVELOPMENT) and summarize what you know — business name, project type, final invoice amount, delivery status — so Dereck can confirm or correct before closing out.
+Look for `project.md` at `~/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm which prior sections are present (ACQUISITION, ONBOARDING, RESEARCH, DESIGN, DEVELOPMENT) and summarize what you know — business name, project type, final invoice amount, delivery status — so the user can confirm or correct before closing out.
 
-If `project.md` does not exist, create it at the standard path using the canonical template. Prompt Dereck for missing context and mark unknowns as `[not captured]`.
+If `project.md` does not exist, create it at the standard path using the canonical template. Prompt the user for missing context and mark unknowns as `[not captured]`.
 
 **If you are in claude.ai chat:**
-Ask Dereck to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask Dereck for the key context — business name, project type, delivery status, final invoice amount — then proceed.
+Ask the user to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask the user for the key context — business name, project type, delivery status, final invoice amount — then proceed.
 
 In both environments: proceed to the Post-Delivery Sequence below. Do not ask for information already in project.md.
 
-**When complete (both environments):** After the post-delivery sequence is finished — final invoice sent, maintenance plan offered, referral asked — append this block — in Claude Code write it directly; in chat output it and tell Dereck to paste it in:
+**When complete (both environments):** After the post-delivery sequence is finished — final invoice sent, maintenance plan offered, referral asked — append this block — in Claude Code write it directly; in chat output it and tell the user to paste it in:
 
 ```markdown
 ### BUSINESS
@@ -56,14 +56,14 @@ This skill activates in two contexts:
 
 ---
 
-## Dereck's Business Info
+## the user's Business Info
 
-- Name: Dereck Villagrana
-- Location: Manteca, CA
-- Email: dereck.villagrana58@gmail.com
-- Phone: (408) 759-0778
-- Portfolio: dereckvilla.design (in progress — update once live)
-- Payment: Zelle to (408) 759-0778 or dereck.villagrana58@gmail.com
+- Name: [Your Name]
+- Location: [Your City, ST]
+- Email: [your email]
+- Phone: [your phone]
+- Portfolio: [your-portfolio.com] (in progress — update once live)
+- Payment: Zelle to [your phone] or [your email]
 
 ---
 
@@ -87,14 +87,14 @@ Amount due: $[final amount]
 Due: within 7 days
 
 Payment via:
-  Zelle: (408) 759-0778
-  PayPal: dereck.villagrana58@gmail.com
+  Zelle: [your phone]
+  PayPal: [your email]
 
 Once payment clears I'll [transfer files / push live / hand over
 access] — should be same day.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 Do not transfer files or go live until payment clears. IP transfers upon final payment per the agreement.
@@ -112,7 +112,7 @@ Your README.md has instructions for everything. Give it a look and
 let me know if you spot anything that needs adjusting — the 14-day
 warranty starts today so any bugs on my end get fixed at no charge.
 
-Dereck
+[Your Name]
 ```
 
 ### 3. Offer the Maintenance Plan
@@ -138,7 +138,7 @@ STANDARD — $125/month
 Happy to set it up if it sounds useful — just reply and I'll
 send an invoice for the first month.
 
-Dereck
+[Your Name]
 ```
 
 Read references/recurring-revenue.md for the full recurring revenue guide — including the monthly maintenance report template that keeps retainer clients renewing.
@@ -160,12 +160,12 @@ Here's the direct link: [Google Business Profile review link]
 
 Second — if you know any other business owners who might need a
 website or a refresh, I'd really appreciate an introduction. A
-simple "you should talk to Dereck" goes a long way.
+simple "you should talk to [Your Name]" goes a long way.
 
 Thanks either way — it was a great project to work on.
 
-Dereck
-(408) 759-0778
+[Your Name]
+[your phone]
 ```
 
 ### 5. Ask for Referrals
@@ -215,7 +215,7 @@ dated [date]. Payment required within 7 days or I'll file in small
 claims court."
 ```
 
-Small claims court in California handles up to $12,500. Filing fee: $30–$75. No lawyer needed.
+Small claims court handles unpaid invoices (the dollar limit varies by state — check yours). Filing fee: $30–$75. No lawyer needed.
 
 **Tracking expenses and taxes:**
 
@@ -275,7 +275,7 @@ Own it quickly. Fix within 24 hours if critical. Apologize once. Move forward. N
 - Time tracking: Toggl Track — know if projects are actually profitable
 - Communication: One channel per client, agreed upfront
 
-Professional email: Gmail works now. When you have a portfolio domain, upgrade to dereck@[yourdomain].com via Google Workspace ($6/month) or Zoho Mail (free).
+Professional email: Gmail works now. When you have a portfolio domain, upgrade to you@[yourdomain].com via Google Workspace ($6/month) or Zoho Mail (free).
 
 Pricing progression:
 - Now: starting rates from client-onboarding

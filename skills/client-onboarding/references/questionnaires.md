@@ -17,7 +17,7 @@ Two versions: the full 44-question questionnaire for most projects, and a 14-que
    *Example: "Rodriguez Plumbing & Drain — but just 'Rodriguez Plumbing' is fine for the logo"*
 
 2. What do you do? Describe your services or products in plain language, as if explaining to a stranger.
-   *Example: "We fix leaky pipes, unclog drains, install water heaters, and handle full bathroom replumbs for homes and small businesses in Stockton and the surrounding area."*
+   *Example: "We fix leaky pipes, unclog drains, install water heaters, and handle full bathroom replumbs for homes and small businesses in [a nearby city] and the surrounding area."*
 
 3. What makes you different from competitors? What do you offer that others don't?
    *Example: "We answer the phone ourselves — no call center. We show up on time and send a text when we're 20 minutes out. Most jobs same day or next day."*
@@ -26,7 +26,7 @@ Two versions: the full 44-question questionnaire for most projects, and a 14-que
    *Example: "11 years. Licensed since 2013."*
 
 5. Where are you based, and what area do you serve?
-   *Example: "Based in Stockton, CA. We serve Stockton, Lodi, Manteca, Tracy, and Modesto."*
+   *Example: "Based in [your city], CA. We serve [your city] and the surrounding towns."*
 
 6. What are your business hours?
    *Example: "Monday–Friday 7am–6pm, Saturday 8am–2pm. Emergency calls 24/7."*
@@ -45,7 +45,7 @@ Two versions: the full 44-question questionnaire for most projects, and a 14-que
    *Example: "Homeowners, usually 35–65, dealing with something that's already broken or leaking. They're stressed, want it fixed today, and want to know the price upfront before anyone starts. They chose us because a neighbor or family member recommended us."*
 
 10. How do most new customers find you right now?
-    *Example: "Mostly word of mouth from past customers. Some from Google — people searching 'plumber near me' or 'emergency plumber Stockton.' A few from our Google Business Profile. Almost none from social media."*
+    *Example: "Mostly word of mouth from past customers. Some from Google — people searching 'plumber near me' or 'emergency plumber [a nearby city].' A few from our Google Business Profile. Almost none from social media."*
     *(Why this matters: determines local SEO priorities, where to invest on the site, and what trust signals matter most.)*
 
 11. What is the #1 question or concern a new customer usually has before working with you?
@@ -79,8 +79,8 @@ Two versions: the full 44-question questionnaire for most projects, and a 14-que
     *Example: "Yeah, it's a Wix site my nephew made in 2018. It looks okay on desktop but terrible on phones. The contact form never worked right. It doesn't really say why you should call us instead of anyone else."*
 
 19. Who are your main local competitors? List 2–3 by name if you can.
-    *Example: "Valley Plumbing, Ace Rooter, and there's a newer guy — Central Valley Drain Pros — who's been showing up on Google a lot lately."*
-    *(Why this matters: feeds directly into competitive analysis — we'll look at their sites to find gaps Dereck can own.)*
+    *Example: "Valley Plumbing, Ace Rooter, and there's a newer guy — [your region] Drain Pros — who's been showing up on Google a lot lately."*
+    *(Why this matters: feeds directly into competitive analysis — we'll look at their sites to find gaps the user can own.)*
 
 20. What do you dislike about competitor websites you've seen?
     *Example: "They all look the same — stock photos of plumbers you've never met, generic 'we're the best' copy that means nothing. None of them make it easy to just call."*
@@ -187,7 +187,7 @@ Use for simple projects (landing pages, 3–4 page small business sites) or time
 **Example answers** are shown in *italics*. Use them to recognize vague answers that need a follow-up question.
 
 1. **What does your business do?** Describe it in 1–2 sentences as if explaining to a stranger.
-   *Example: "We install and repair fences — wood, vinyl, chain link — for homeowners and commercial properties in Tracy and Manteca."*
+   *Example: "We install and repair fences — wood, vinyl, chain link — for homeowners and commercial properties in Tracy and [your city]."*
 
 2. **Who is your typical customer, and how do they usually find you?**
    *Example: "Homeowners, usually 40–60, who need a fence replaced or a new one installed. Most find us through Google or neighbor referrals."*

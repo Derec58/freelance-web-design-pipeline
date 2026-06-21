@@ -1,6 +1,6 @@
 ---
 name: ux-research
-description: UX research for web design projects — generating research reports, creating proto-personas and anti-personas, writing jobs-to-be-done statements, running competitive analysis, synthesizing findings into design requirements, and bridging research to design decisions. Use this skill when Dereck needs to conduct or interpret research before designing, generate a UX report from client questionnaire answers, build personas or anti-personas, analyze competitors, or translate findings into actionable design requirements. Trigger for any request involving research, personas, user goals, competitor analysis, or "what should I design and why." Do NOT use this skill for running the discovery call or sending the client questionnaire — that is client-onboarding. Do NOT use it for wireframes, visual design, or the design system — that is web-design.
+description: UX research for web design projects — generating research reports, creating proto-personas and anti-personas, writing jobs-to-be-done statements, running competitive analysis, synthesizing findings into design requirements, and bridging research to design decisions. Use this skill when the user needs to conduct or interpret research before designing, generate a UX report from client questionnaire answers, build personas or anti-personas, analyze competitors, or translate findings into actionable design requirements. Trigger for any request involving research, personas, user goals, competitor analysis, or "what should I design and why." Do NOT use this skill for running the discovery call or sending the client questionnaire — that is client-onboarding. Do NOT use it for wireframes, visual design, or the design system — that is web-design.
 ---
 
 # UX Research Skill
@@ -11,22 +11,22 @@ description: UX research for web design projects — generating research reports
 
 ## Session Start Protocol
 
-**Only run this when Dereck says there is an active project.**
+**Only run this when the user says there is an active project.**
 
 When activated, do the following based on your environment:
 
 **If you are in Claude Code (VS Code terminal):**
-Look for `project.md` at `/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm which prior sections are present (ACQUISITION, ONBOARDING) and summarize what you know — business name, project type, primary conversion goal, timeline, key onboarding notes — so Dereck can confirm or correct before research begins.
+Look for `project.md` at `~/Desktop/WebsiteProjects/[client-name]/project.md`. Read it in full. Confirm which prior sections are present (ACQUISITION, ONBOARDING) and summarize what you know — business name, project type, primary conversion goal, timeline, key onboarding notes — so the user can confirm or correct before research begins.
 
-If `project.md` does not exist, create it at the standard path using the canonical template. Prompt Dereck for missing context and mark unknowns as `[not captured]`.
+If `project.md` does not exist, create it at the standard path using the canonical template. Prompt the user for missing context and mark unknowns as `[not captured]`.
 
 **If you are in claude.ai chat:**
-Ask Dereck to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask Dereck for the key context manually, output a filled-in scaffold, and tell him to save it to:
-`/Users/dereckvillagrana/Desktop/WebsiteProjects/[client-name]/project.md`
+Ask the user to open `project.md` in VS Code, select all, and paste it here. Once pasted, confirm what you know and proceed. If no file exists yet, ask the user for the key context manually, output a filled-in scaffold, and tell him to save it to:
+`~/Desktop/WebsiteProjects/[client-name]/project.md`
 
 In both environments: proceed to Step 3A. Do not ask for information already in project.md.
 
-**When complete (both environments):** After the research-to-design bridge is confirmed by Dereck (Step 3C), append this block — in Claude Code write it directly; in chat output it and tell Dereck to paste it in:
+**When complete (both environments):** After the research-to-design bridge is confirmed by the user (Step 3C), append this block — in Claude Code write it directly; in chat output it and tell the user to paste it in:
 
 ```markdown
 ### RESEARCH
@@ -61,7 +61,7 @@ No guessing. No designing from aesthetics alone. Research first, design second.
 - Proto-personas (1–3 depending on project type)
 - JTBD statements with derived design requirements
 - Competitive analysis summary (if conducted)
-- Confirmed design requirements — approved by Dereck before design begins
+- Confirmed design requirements — approved by the user before design begins
 - Project type classification
 - Primary conversion goal
 - Any brand assets received from the client (logo, colors, fonts — or "none")
@@ -75,8 +75,8 @@ Claude cannot interview real users. What it can do is:
 
 1. **Synthesize** what the client told you in the questionnaire and discovery call into structured findings
 2. **Generate assumptions** where real data doesn't exist — clearly labeled as assumptions, never presented as confirmed research
-3. **Structure research plans** for Dereck to run (interview guides, surveys, usability scripts)
-4. **Interpret data** Dereck provides (analytics, reviews, competitor observations)
+3. **Structure research plans** for the user to run (interview guides, surveys, usability scripts)
+4. **Interpret data** the user provides (analytics, reviews, competitor observations)
 5. **Bridge findings to design** — translate everything into specific, actionable design requirements
 
 Always label assumption-based content clearly. Never present generated assumptions as confirmed user research.
@@ -89,7 +89,7 @@ Before generating anything, do three things in order:
 
 **1. Check what's already known**
 
-If `project.md` exists and has an ONBOARDING section, you already have: the completed questionnaire answers, discovery call notes, project type, primary conversion goal, timeline, and client description of their audience. Do not ask Dereck to re-explain any of this. State what you know and confirm it's current.
+If `project.md` exists and has an ONBOARDING section, you already have: the completed questionnaire answers, discovery call notes, project type, primary conversion goal, timeline, and client description of their audience. Do not ask the user to re-explain any of this. State what you know and confirm it's current.
 
 **2. Ask only for what's missing**
 
@@ -108,7 +108,7 @@ Choose one and say it explicitly before proceeding:
 Generate structured assumptions from the questionnaire. Build proto-personas, JTBD statements, and a hypothesis list. Propose a minimum viable research plan the client could run if they want to validate. Label everything as assumption-based.
 
 **Mode B — Some research exists**
-Dereck has provided raw notes, a discovery call description, or an uploaded file. Synthesize whatever exists into structured findings. Ask follow-up questions to fill gaps.
+the user has provided raw notes, a discovery call description, or an uploaded file. Synthesize whatever exists into structured findings. Ask follow-up questions to fill gaps.
 
 **Mode C — Research has been done**
 Interpret and synthesize existing research into insights and design requirements. Do not redo work already done. Extract what's useful and move to the bridge.
@@ -154,7 +154,7 @@ Read `references/research-evaluative.md` for full guidance on:
 
 ## Step 3C — The Research-to-Design Bridge
 
-This is the most important output of this skill. After any research phase, produce this bridge before handing off to `web-design`. Confirm with Dereck before proceeding.
+This is the most important output of this skill. After any research phase, produce this bridge before handing off to `web-design`. Confirm with the user before proceeding.
 
 ```markdown
 ## Research-to-Design Bridge — [Business Name]
@@ -190,7 +190,7 @@ What we still don't know:
 
 ## Step 3D — Competitive Analysis
 
-Run when the client mentions competitors, when understanding the competitive landscape would sharpen the design direction, or when Dereck asks for it.
+Run when the client mentions competitors, when understanding the competitive landscape would sharpen the design direction, or when the user asks for it.
 
 **What to analyze (for each competitor):**
 - Site URL and business type
@@ -232,11 +232,11 @@ Before handing off to `web-design`, confirm all of the following exist:
 - [ ] Anti-personas defined (who the site is NOT for)
 - [ ] JTBD statements written with derived design requirements
 - [ ] Key findings listed (3–7 insights)
-- [ ] Design requirements confirmed by Dereck (3–7 requirements)
+- [ ] Design requirements confirmed by the user (3–7 requirements)
 - [ ] Prioritized opportunity list produced
 - [ ] Competitive analysis done (if relevant)
 - [ ] Open questions documented
-- [ ] Research-to-design bridge confirmed — Dereck approved before design begins
+- [ ] Research-to-design bridge confirmed — [Your Name] approved before design begins
 
 **Pass to `web-design`:**
 - The full research report (markdown)

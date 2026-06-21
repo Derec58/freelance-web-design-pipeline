@@ -387,7 +387,7 @@ Even minor inconsistencies (St. vs Street, Suite vs Ste) can hurt local rankings
 **Homepage copy mentions location naturally:**
 ```
 "Serving Sacramento, Elk Grove, Roseville, and surrounding areas..."
-"Locally owned and operated in Modesto's Central Valley since 2010..."
+"Locally owned and operated in Modesto's [your region] since 2010..."
 ```
 
 **Footer includes full NAP:**
@@ -535,7 +535,7 @@ Always validate before delivery: **schema.org/SchemaValidator** or **Google's Ri
 Most small business clients don't need a complex keyword strategy. Focus on:
 
 1. **Primary keyword** — what the business does + where
-   - "Sacramento plumber" / "Modesto tile installation" / "Bay Area landscaping"
+   - "Sacramento plumber" / "Modesto tile installation" / "[a higher-cost metro] landscaping"
 
 2. **Service keywords** — specific services, one per page
    - "drain cleaning Sacramento" / "bathroom tile installation Modesto"
@@ -664,7 +664,7 @@ Run before every delivery. Mark each item Pass / Fail / N/A.
 
 ## 12. Answer Engine Optimization (AEO)
 
-A growing share of searches now end inside an AI answer — ChatGPT, Perplexity, Google AI Overviews, Gemini — where the user reads a synthesized response and never clicks a blue link. AEO is the practice of structuring a site so those engines extract and **cite** it as the answer. It is not a replacement for SEO; it builds on the same foundation, and most AEO work also improves traditional rankings. For local service businesses this is a real opportunity: someone asking an assistant "who's a reliable plumber near Manteca?" is a high-intent lead, and the businesses structured to be cited will win those.
+A growing share of searches now end inside an AI answer — ChatGPT, Perplexity, Google AI Overviews, Gemini — where the user reads a synthesized response and never clicks a blue link. AEO is the practice of structuring a site so those engines extract and **cite** it as the answer. It is not a replacement for SEO; it builds on the same foundation, and most AEO work also improves traditional rankings. For local service businesses this is a real opportunity: someone asking an assistant "who's a reliable plumber near [your city]?" is a high-intent lead, and the businesses structured to be cited will win those.
 
 ### How AEO differs from classic SEO
 
